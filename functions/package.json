@@ -1,0 +1,34 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-analytics/data": "^4.3.0",
+    "@google-cloud/bigquery": "^7.3.0",
+    "@google-cloud/video-intelligence": "^5.3.0",
+    "app-store-server-api": "^0.11.1",
+    "axios": "^1.6.5",
+    "connectycube": "^3.27.4",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^3.18.0",
+    "functions": "^1.0.9",
+    "google-auth-library": "^9.4.2",
+    "googleapis": "^82.0.0",
+    "moment": "^2.30.1",
+    "openai": "^4.24.7"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}

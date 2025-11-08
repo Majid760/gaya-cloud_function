@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "girlz-dev",
+    "production": "girlz-dev",
+    "development": "girlz-96072"
+  }
+}
